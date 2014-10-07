@@ -41,6 +41,39 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
+        "value": "//a[@id='userMenuButton']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//a[text()='Edit Profile']"
+      }
+    },
+    {
+      "type": "assertTextPresent",
+      "text": "Manager"
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//li[@class='borderLeft']/a[@class='bClose']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
         "value": "//a[@href='#!company']"
       }
     },
