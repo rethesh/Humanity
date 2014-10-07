@@ -31,13 +31,6 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//a[b[contains(text(),'Test Yantra Software')]]"
-      }
-    },
-    {
       "type": "mouseOverElement",
       "locator": {
         "type": "xpath",
